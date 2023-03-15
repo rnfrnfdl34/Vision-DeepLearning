@@ -40,3 +40,5 @@ while(True):
         break
     elif cv.waitKey(1)==ord('+'):
         BrushSize+=1
+        if BrushSize<1:
+            BrushSize = 1
